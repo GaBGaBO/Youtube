@@ -1,0 +1,568 @@
+*{
+  transition: all 0.3s;
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style-type:none;
+}
+/* ეს არის იუთუბის ლოგოს დასაწყისი */
+.youtubeImage img{
+  position: absolute;
+  width:120px;
+  left:80px;
+  top:20px;
+  cursor: pointer;
+
+}
+
+.youtubeImage{
+  position:relative;
+}
+/* ეს არის იუთუბის ლოგოს დასასრული */
+
+/* Bar Icon დასაწყისი */
+.ico{
+  position:relative;
+}
+.ico .fa-solid{
+  position:absolute;
+  font-size:25px;
+  color:grey;
+  top:22px;
+  left:30px;
+  cursor: pointer;
+
+}
+/* Bar Icon დასასსრული */
+/* ეს არის ლოგოს თავზე პატარა წარწერის დასაწყისი */
+.text{
+  position:relative;
+}
+.text h6{
+  position:absolute;
+  color:grey;
+  left:200px;
+  top:10px;
+}
+/* ეს არის ლოგოს თავზე პატარა წარწერის დასასრული */
+/* Input Seach ის დასაწყისი + სერჩ აიქონები */
+.inputSearch{
+  position:relative;
+  text-align:center;
+  right: 290px;
+  top:10px;
+}
+.inputSearch .search{
+  border:0.5px solid grey;
+  position:absolute;
+  font-size:17px;
+  width:550px;
+  height:45px;
+  text-indent:35px;
+}
+.ico1{
+  position: relative;
+  text-align: center;
+  right: 275px;
+  top:23px;
+}
+.ico1{
+  color:grey;
+}
+/* Input Seach ის დასასრული  */
+
+/* Button Search and microphone დასაწყისი */
+.ico2{
+  position:absolute;
+  right:491px;
+  top:10px;
+}
+.ico2 button{
+  height:45px;
+  width:60px;
+}
+.ico2 button .fa-solid{
+  font-size:18px;
+  color:#454545;
+}
+.ico3 button .fa-sharp{
+  position:absolute;
+  right:450px;
+  color:black;
+  font-size:20px;
+  background-color: #fff;
+  top:20px;
+  height:33px;
+  width:30px;
+  border-radius:10px;
+}
+/* Button Search დასასრული */
+/* Camera Icon დასაწყისი */
+.cameraIcon{
+  position: absolute;
+  right:140px;
+  top:23px;
+  color:#000;
+  font-size:21px;
+}
+
+/* Camera Icon დასასრული */
+
+/* Microphone Icon დასაწყისი */
+.BellIcon{
+  position: absolute;
+  right:90px;
+  top:23px;
+  font-size:21px;
+}
+/* Microphone Icon დასასრული */
+
+/* Email დასაწყისი */
+.Email{
+  position:absolute;
+  right:30px;
+  top:18px;
+  width:35px;
+  height:35px;
+  background-color:red;
+  color:#fff;
+  border-radius: 100%;
+}
+.Email p{
+  text-align: center;
+  font-size:21px;
+  font-weight:bold;
+  color:#fff;
+  margin-top:5px;
+}
+/* Email დასასრული */
+
+/* X-in search დასაწყისი */
+.X{
+  position:absolute;
+  right:560px;
+  top:20px;
+}
+.X .fa-sharp{
+  font-size:27px;
+  color:#D3D3D3;
+  font-weight: bold;
+}
+/* X-in search დასასრული */
+
+/* List ის დასაწყისი */
+.List{
+  position:absolute;
+  top:70px;
+  left:30px;
+  font: size 17px;
+}
+.List .fa-solid{
+  font-size:18px;
+}
+.List{
+  position: absolute;
+  top:80px;
+  cursor:pointer;
+}
+
+.List .fa-regular{
+  display: block  ;
+}
+.List p{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform:translateY(-20px);
+  left:30px;
+}
+.List  .pw{ 
+  transform: translateY(10px);
+}
+.List .fa-clock-rotate-left{
+  transform: translateY(30px);
+}
+.List .fa-play{
+  transform: translateY(30px);
+}
+.List .fa-book{
+  transform: translateY(30px);
+}
+.List .fa-clock{
+  transform: translateY(30px);
+}
+hr{
+  position: absolute;
+  left:-30px;
+  width:235px;
+  color:grey;
+  font-weight:bold;
+}
+.second{
+  position: absolute;
+  left:-30px;
+  width:235px;
+  color:grey;
+  font-weight:bold;
+  top:350px;
+}
+/* List ის დასასრული */
+/* გამოწერების დასაწყისი */
+.txt{
+  margin-top:50px;
+  color:grey;
+  font-weight: bold;
+}
+.imgg img{
+  margin-top:13px;
+  width:30px;
+  border-radius:50px;
+}
+.List .imgg img{
+  display: block;
+}
+h2{
+  position:absolute;
+  left:50px;
+  font-size:17px;
+  color:#000;
+  top:409px;
+}
+h3{
+  position:absolute;
+  left:50px;
+  font-size:17px;
+  color:#000;
+  top:450px;
+}
+.h3{
+  position:absolute;
+  left:50px;
+  font-size:17px;
+  color:#000;
+  top:490px;
+}
+.hh{
+  position:absolute;
+  left:50px;
+  font-size:17px;
+  color:#000;
+  top:540px;
+}
+.h{
+  position:absolute;
+  left:50px;
+  font-size:17px;
+  color:#000;
+  top: 580px;
+}
+.hhh{
+  position:absolute;
+  left:50px;
+  font-size:17px;
+  color:#000;
+  top:620px;
+}
+/* გამოწერების დასასრული */
+/* input  ქვევით hr დასაწყისი*/
+.hrbr{
+  position: absolute;
+  top:70px;
+  left:220px;
+  width: 1315px;
+}
+.hrb{
+  position: absolute;
+  top:120px;
+  left:220px;
+  width: 1315px;
+}
+/* input  ქვევით hr დასასრული*/
+
+/* InTheHr ში დაწერილი ჩამოონათვალის დასაწყისი */
+
+.inTheHR button{
+  cursor: pointer;
+  position:absolute;
+  background-color: #000;
+  color:#fff;
+  font-weight:bold;
+  width:70px;
+  height:30px;
+  border-radius:40px;
+  left: 230px;
+  top:80px;
+}
+.b{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:70px;
+  height:30px;
+  border-radius:40px;
+  left: 310px;
+  top:80px;
+  cursor: pointer;
+}
+
+.video{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:130px;
+  height:30px;
+  border-radius:40px;
+  left: 390px;
+  top:80px;
+  cursor: pointer;
+}
+.cal{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:120px;
+  height:30px;
+  border-radius:40px;
+  left: 530px;
+  top:80px;
+  cursor: pointer;
+}
+.foo{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:120px;
+  height:30px;
+  border-radius:40px;
+  left: 660px;
+  top:80px;
+  cursor: pointer;
+}
+.gym{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:130px;
+  height:30px;
+  border-radius:40px;
+  left: 790px;
+  top:80px;
+  cursor: pointer;
+}
+.child{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:120px;
+  height:30px;
+  border-radius:40px;
+  left: 930px;
+  top:80px;
+  cursor: pointer;
+}
+.live{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:120px;
+  height:30px;
+  border-radius:40px;
+  left: 1060px;
+  top:80px;
+  cursor: pointer;
+}
+.prg{
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:120px;
+  height:30px;
+  border-radius:40px;
+  left: 1190px;
+  top:80px;
+  cursor: pointer;
+
+}
+.new{
+  cursor: pointer;
+  position:absolute;
+  background-color:lightgray;
+  color:black;
+  font-weight:bold;
+  width:160px;
+  height:30px;
+  border-radius:40px;
+  left: 1320px;
+  top:80px
+
+}
+.FinallyImg{
+  position:absolute;
+  top:150px;
+  left:300px;
+}
+.FinallyImg img{
+  cursor: pointer;
+  width:350px;
+  color:black;
+}
+.FinallyImg .t{
+  font-size:22px;
+}
+.secImg img{
+  position:absolute;
+  margin-top:40px;
+}
+.secImg .tt{
+  position:absolute;
+  margin-top:240px;
+  font-size:22px;
+  color:black;
+}
+.FinallyImg .t2{
+  text-indent:20px;
+}
+.FinallyImg .sml{
+  position: absolute;
+  text-indent:20px;
+  margin-top:270px;
+}
+.FinallyImg .three img{
+  position: absolute;
+  left:500px;
+  margin-top:40px;
+}
+
+.FinallyImg  .texti p{ 
+  position: absolute;
+  top:400px;
+  left:500px;
+}
+
+.im1{
+  position: relative;
+}
+.im1 img{
+  cursor: pointer;
+  position: absolute;
+  left:740px;
+  width:350px;
+  top:117px;
+}
+.im1 .anriko{
+  position:absolute;
+  top:320px;
+  font-size:22px;
+  left:750px;
+}
+.im1 .back{
+  position: absolute;
+  left:750px;
+  top:350px;
+  text-indent: 20px;
+}
+.im2{
+  position: relative;
+}
+.im2 img{
+  position:absolute;
+  width:350px;
+  right:40px;
+  top:117px;
+  cursor: pointer;
+}
+.im2 .getLucky{
+  position:absolute;
+  right:30px;
+  top:330px;
+  font-size:20px;
+  
+}
+.im2 .back1{
+  position:absolute;
+  right:180px;
+  top:360px;
+}
+.im3{
+  position: relative;
+}
+.im3 img{
+  position:absolute;
+  width:350px;
+  right:40px;
+  top:436px;
+  height:200px;
+  cursor:pointer;
+}
+.im3 .GoalBog{
+  position: absolute;
+  right:40px;
+  top:640px;
+  font-size:19px;
+  font-weight:bold;
+}
+
+.im4{
+  position: relative;
+  text-align: center;
+  cursor:pointer;
+}
+.im4 img{
+  position: absolute;
+  top:436px;
+  right:450px;
+  width:350px;
+}
+.im4 .tesla{
+  position:absolute;
+  top:640px;
+  right:583px;
+  font-size:19px;
+}
+.im4 .view{
+  position:absolute;
+  top:665px;
+  right:583px;
+    text-indent:20px;
+}
+.LatRing{
+  position: relative;
+  text-align: center;
+}
+.LatRing .last{
+  right:76px;
+  top:-17px;
+  position: absolute;
+  width:23px;
+  background-color: red;
+  height:18px;
+  color:white;
+  font-weight:bold;
+  border-radius: 10px;
+}
+
+
+
+/* InTheHr ში დაწერილი ჩამოონათვალის დასასრული */
+
+
+
+
+
+
+
+
+
+
+
+
